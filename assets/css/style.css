@@ -146,28 +146,26 @@ header nav ul li a:hover {
     justify-content: space-between;
 }
 
-.img1 a img{
+.img1 {
     border: green 5px solid;
     width: 100%;
     object-fit: fill;
 }
 
-.img2 a img,
-.img3 a img,
-.img4 a img,
-.img5 a img {
+.right-box2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img2 {
     border: green 5px solid;
-    width: 35%;
+    width: 50%;
     object-fit: fill;
 }
 
-.img1 a img:hover,
-.img2 a img:hover,
-.img3 a img:hover,
-.img4 a img:hover,
-.img5 a img:hover {
-    border-radius: 5px;
-    border-color: orange;
+.img1:hover,
+.img2:hover {
+    border: orange 5px solid;
     opacity: 0.5;
 }
 /* work ends */
